@@ -1,0 +1,14 @@
+.media{
+    margin-top: 30px;
+}
+.media img{
+    margin-right: 20px;
+}
+.media h3{
+     font-size: 22px;
+     font-weight: 300;
+}
+.media p{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.473);
+}

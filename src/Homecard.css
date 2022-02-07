@@ -1,0 +1,30 @@
+*{
+    
+    font-family: 'Anton', sans-serif;
+}
+h1{
+    color: white;
+    font-size: 70px;
+    line-height: 80px;
+}
+h4{ 
+    color: white;
+    margin-top: -500px;
+}
+button{
+    color: white;
+    margin-top: 20px;
+    color: black;
+    background-color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 300px;
+    box-shadow: 2px 14px #00000027;
+
+}
+button:hover{
+    box-shadow: none;
+}

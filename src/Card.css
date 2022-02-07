@@ -1,0 +1,85 @@
+*{
+    color: black;
+    font-family: 'Anton', sans-serif;
+}
+.card{
+    text-align: center;
+    padding: 0px;
+}
+.card-img-top{
+    width: 60%;
+}
+.card-1{
+    padding:40px 20px;
+    background-color: #0000ffc2;
+    padding-bottom: 30px;
+}
+.card-2{
+    padding:40px 20px;
+    background-color: #f99cac;
+    padding-bottom: 30px;
+}
+.card-3{
+    padding:40px 20px;
+    background-color: #6ac7e5;
+    padding-bottom: 30px;
+}
+.card h3{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0px;
+  
+}
+.card-3 .card-img-top{
+    width:41%;
+}
+
+#professional-cards h1{
+    font-size: 50px;
+    color: black;
+    line-height: 60px;
+}
+.card{
+    margin-top: 20px;
+}
+.card-4{
+   
+    padding: 40px 10px;
+    background-color: rgba(142, 180, 185, 0.295);
+}
+
+.card-4 h3{
+color:black;
+font-size: 25px;
+font-family: 'Poppins', sans-serif;
+}
+.card-4 h5{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.card-5 .card-img-top {
+    width: 100%;
+    border-radius: 10px;
+}
+.card-5  h3,h5{
+    color: black;
+    text-align: start;
+    font-family: 'Poppins', sans-serif;
+}
+.card-5 h3{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.card-5 h5{
+
+    color: cadetblue;
+}
+.card-5 .card-body{
+    padding: 20px 0px;
+}
+.card{
+    border: none;
+}

@@ -1,0 +1,175 @@
+@media(max-width:992px){
+    #header nav {
+        background-color: black;
+        margin-top: 0px;
+        width: 100%;
+        z-index: 30;
+        display: none;
+    }
+    #home {
+        position: absolute;
+      top: 40px;
+        left: 0px;
+  }
+ #home h4{ 
+    color: white;
+    margin-top: -400px;
+}
+#professional-cards .col-md-9 {
+    margin-left: 200px;
+}
+#benefits h1 {
+    padding: 0px 100px;
+}
+#benefits p{
+    padding-right: 0px;
+}
+#how-works .box-1 .box1::after{
+   display: none;
+}
+#how-works .box-2::before{
+   display: none;
+}
+#how-works .box2::before{
+  display: none;
+}
+#how-works .box-3::before{
+ display: none;
+}
+#how-works .box-2::after{
+   display: none;
+}
+#how-works .box3::before{
+   display: none;
+}
+#how-works .box-3 .box3::after{
+   display: none;
+}
+#how-works .box-4::before{
+    display: none;
+}
+#how-works .col-md-6{
+    margin-top: 30px;
+}
+#how-works .box4::before{
+   display: none;
+}
+#footer .col-sm-6{
+    margin-top: 40px;
+}
+}
+@media(max-width:768px){
+    #home h1{ 
+        font-size: 50px;
+        line-height: 60px;
+    }
+    #home h4{ 
+        color: white;
+        margin-top: -350px;
+    }
+    #professional-cards .col-md-6{
+        margin-top: 50px;
+    }
+    #professional-cards .col-md-9 {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    #benefits h1 {
+        padding: 0px 10px;
+    }
+    #offer{
+        text-align: center;
+    }
+    #business-cards{
+        padding-bottom: 80px;
+    }
+    #meet{
+        text-align: center;
+    }
+    #meet button{
+        margin-top: 40px;
+    }
+    #sample-cards{
+        text-align: center;
+    }
+#how-works .col-sm-12{
+    margin: 40px 0px;
+}
+}
+@media(max-width:576px){
+    h1{
+        font-size: 30px;
+    }
+    button{
+        font-size: 20px;
+    }
+    #home h4{ 
+        font-size: 20px;
+        margin-top: -200px;
+    }
+    #home h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    #home button{
+        font-size: 18px;
+        padding: 10px 30px;
+        margin-bottom: 0px;
+        margin-top:20px;
+    }
+    #unique-cards h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    #professional-cards h1 {
+        font-size: 30px;
+       text-align: center;
+        line-height: 30px;
+    }
+    #professional-cards p {
+       text-align: center;
+    }
+    #professional-cards h3 {
+        text-align: center;
+        padding: 30px 10px;
+        padding-left: 0px;
+    }
+    #professional-cards .a {
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    #benefits h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #offer h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #offer button{
+        font-size: 20px;
+    }
+    #business-cards h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #business-cards h2{
+        font-size: 22px;
+    }
+    #business-cards h5{
+        font-size: 20px;
+    }
+    #meet h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #wedding-cards h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #how-works{
+        text-align: center;
+    }
+}

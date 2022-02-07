@@ -1,38 +1,493 @@
-.App {
-  text-align: center;
+*{
+    font-family: 'Anton', sans-serif;
+}
+button{
+    font-family: 'Poppins', sans-serif;
+}
+#header nav {
+    margin-top: 30px;
+    z-index: 30;
+}
+#header ul li a{
+    margin-right: 30px;
+    font-size: 22px;
+    color: white;
+}
+#header ul li a:hover{
+    color: black;
+}
+#header ul li:active{
+    color: black;
+}
+#header .navbar-nav{
+    position: absolute;
+    right: 20px;
+}
+#home {
+      position: absolute;
+    top: 0px;
+      left: 0px;
+}
+#home .carousel-control-prev, .carousel-control-next, .carousel-indicators{
+    display: none;
+}
+#unique-cards{
+    margin-top: 700px;
+}
+#unique-cards h1{
+    font-size: 40px;
+     color: black;
+     line-height: 50px;
+}
+#professional-cards{
+
+    background: url('/public/doted-gb.jpg');
+    margin-top: -60px;
+    padding-top:120px ;
+    padding-bottom: 80px;
+}
+#professional-cards p{
+    font-family: 'Poppins', sans-serif;
+     font-size: 18px;
+     color: black;
+}
+#professional-cards h3{
+    padding: 30px 300px;
+    padding-left: 0px;
+}
+#professional-cards h4{
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+#professional-cards .a{
+    width: 300px;
+    z-index: 10;
+    border-right: 1px solid white;
+    padding: 50px 20px 35px 20px;
+    background-image: linear-gradient(290deg, #308D74 20%, #C5AF4D 100%);
+    border-radius: 20px;
+    text-align: center;
+}
+#professional-cards .col-md-9{
+    z-index: 10;
+    margin-left: 300px;
+    margin-top: -200px;
+    padding: 0px;
+}
+#professional-cards .a h1,#professional-cards .a h4{
+    color: white;
+}
+#professional-cards h4{
+    font-size: 20px;
+}
+#benefits h1{
+    margin-top: 40px;
+    padding: 0px 300px;
+    line-height: 60px;
+    letter-spacing: 3px;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#offer{
+    margin-top: 80px;
+    background: url('/public/doted-gb.jpg');
+    padding-top: 50px;
+
+}
+#offer h1{
+    color: black;
+   font-size: 45px;
+   line-height: 50px;
+}
+#offer button{
+    background-image: linear-gradient(290deg, #308D74 20%, #C5AF4D 100%);
+    color: white;
+    letter-spacing: 1px;  
+}
+#offer .cards{
+    z-index: 10;
+    background-color: white;
+    padding:50px 30px;
+    border-radius: 20px;
+    margin-top: -200px;
+}
+#business-cards{
+   margin-top: 10px;
+    background-image: linear-gradient(290deg, #308D74 20%, #C5AF4D 100%);
+    padding-top: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#business-cards .col-md-6 h2,h5,h1,button{
+    color: white;
+}
+#business-cards button{
+    margin-bottom: 0px;
+}
+#meet{
+    margin-top: 80px;
+}
+#meet h2{
+    font-size: 25px;
+    margin-top: 50px;
+}
+#meet h1{
+    font-size: 44px;
+    color: black;
+    line-height: 60px;
+}
+#meet button{
+    font-size: 20px;
+    background-image: linear-gradient(290deg, #308D74 20%, #C5AF4D 100%);
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+#meet a:hover{
+    text-decoration: none;
+
+}
+#sample-cards{
+    margin-top: 80px;
+    padding-top: 80px;
+    background: url('/public/doted-gb.jpg');
+    padding-bottom: 80px;
+}
+#sample-cards button{
+    font-size: 20px;
+    background-image: linear-gradient(290deg, #308D74 20%, #C5AF4D 100%);
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+#sample-cards h2{
+    letter-spacing: 4px;
+    line-height: 40px;
+}
+#sample-cards .col-md-4 img{
+    background-image: linear-gradient(229deg, #749d62 50%, #2f8b73 0%);
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+#sample-cards .col-md-4 h2{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+}
+#sample-cards .col-md-4 p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.589);
+}
+#wedding-cards{
+    text-align: center;
+    color: black;
+    margin-top: 80px;
+}
+#wedding-cards h1{
+    color: black;
+    margin: 0px 0px;
+    font-size: 40px;
+}
+#wedding-cards h4{
+    color: black;
+}
+#how-works .box-1{
+    margin-top: 80px;
+}
+#how-works .box-1 .box1{
+    text-align: end;
+    background-color: rgba(0, 0, 255, 0.74);
+    color: white;
+    padding:50px;
+    border-radius: 10px;
+}
+#how-works .box-1 .box1 h2,p{
+    color: white;
+    margin-left: 0px;
+    margin-bottom: 0px;
+ padding-right: 0px;
+ margin-right: 0px;
+}
+#how-works .box-1 .box1 p{
+    padding-right: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#how-works .circle1{
+    border-radius: 50%;
+    box-shadow: -5px 5px 50px rgb(185 174 174);  
+}
+#how-works h1{
+    padding-top: 65px;
+    padding-left: 50px;
+    color: black;
+}
+#how-works .circle1::before{
+    width: 0px;
+    /* background-color: red; */
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-right: 30px solid rgb(255, 255, 255);
+    border-bottom: 20px solid transparent;
+    content: '';
+    position: absolute;
+    transform: translateY(-50%);
+    transform: rotate(127deg);
+    left: -20px;
+margin-top: 80px;
+}
+#how-works .box-2{
+    margin-top: 130px;
+}
+#how-works .box-1 .box1::after{
+    content: " ";
+    position: absolute;
+    width: 2px;
+    height: 65px;
+    background-color: rgb(151, 145, 140);
+    margin-top: 49px;
+}
+#how-works .box-2::before{
+    content: " ";
+    position: absolute;
+    width: 295px;
+    height: 2px;
+    background-color: rgb(151, 145, 140);
+    margin-top: -68px;
+    margin-left: 413px;
+}
+#how-works .circle2{
+    border-radius: 50%;
+    box-shadow: -5px 5px 50px rgb(185 174 174);  
+   
+}
+#how-works .circle2::before{
+    width: 0px;
+    /* background-color: red; */
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-right: 30px solid rgb(255, 255, 255);
+    border-bottom: 20px solid transparent;
+    content: '';
+    position: absolute;
+    transform: translateY(-50%);
+    transform: rotate(125deg);
+    left: -20px;
+margin-top: 75px;
+}
+#how-works .box2{
+    text-align:start;
+    background-color: rgb(231 154 12);
+    color: white;
+    padding:50px;
+    border-radius: 10px;
+}
+#how-works .box-2 .box2 h2,p{
+    color: white;
+    margin-left: 0px;
+    padding-right: 60px;
+    margin-bottom: 0px;
+}
+#how-works .box-2 .box2 p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-left: 0px;
+    padding-right: 60px;
+    margin-bottom: 0px;
+}
+#how-works .box2::before{
+    content: " ";
+    position: absolute;
+    width: 2px;
+    height: 65px;
+    background-color: rgb(151, 145, 140);
+    margin-top: -117px;
+    margin-left: 4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#how-works .box-3{
+    margin-top: 130px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#how-works .box-3::before{
+    content: " ";
+    position: absolute;
+    width: 295px;
+    height: 2px;
+    background-color: rgb(151, 145, 140);
+    margin-top: -68px;
+    margin-left: 418px;
+}
+#how-works .box-2::after{
+    content: " ";
+    position: absolute;
+    width: 2px;
+    height: 65px;
+    background-color: rgb(151, 145, 140);
+    margin-top: -1px;
+    margin-left: 712px;
+}
+#how-works .circle3{
+    border-radius: 50%;
+    box-shadow: -5px 5px 50px rgb(185 174 174);  
+   
+}
+#how-works .circle3::before{
+    width: 0px;
+    /* background-color: red; */
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-right: 30px solid rgb(255, 255, 255);
+    border-bottom: 20px solid transparent;
+    content: '';
+    position: absolute;
+    transform: translateY(-50%);
+    transform: rotate(125deg);
+    left: -20px;
+margin-top: 75px;
+}
+#how-works .box3{
+    text-align:end;
+    background-color: rgba(0, 0, 255, 0.74);
+    color: white;
+    padding:50px;
+    border-radius: 10px;
+}
+#how-works .box-3 .box3 h2,p{
+    color: white;
+    margin-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+#how-works .box-3 .box3 p{
+    padding-right: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#how-works .box3::before{
+    content: " ";
+    position: absolute;
+    width: 2px;
+    height: 65px;
+    background-color: rgb(151, 145, 140);
+    margin-top: -117px;
+    margin-left: 4px;
 }
 
-.App-link {
-  color: #61dafb;
+#how-works .box-4{
+    margin-top: 130px;
+}
+#how-works .box-3 .box3::after{
+    content: " ";
+    position: absolute;
+    width: 2px;
+    height: 65px;
+    background-color: rgb(151, 145, 140);
+    margin-top: 58px;
+}
+#how-works .box-4::before{
+    content: " ";
+    position: absolute;
+    width: 295px;
+    height: 2px;
+    background-color: rgb(151, 145, 140);
+    margin-top: -68px;
+    margin-left: 413px;
+}
+#how-works .circle4{
+    border-radius: 50%;
+    box-shadow: -5px 5px 50px rgb(185 174 174);  
+   
+}
+#how-works .circle4::before{
+    width: 0px;
+    /* background-color: red; */
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-right: 30px solid rgb(255, 255, 255);
+    border-bottom: 20px solid transparent;
+    content: '';
+    position: absolute;
+    transform: translateY(-50%);
+    transform: rotate(125deg);
+    left: -20px;
+margin-top: 75px;
+}
+#how-works .box4{
+    text-align:start;
+    background-color: rgb(231 154 12);
+    color: white;
+    padding:50px;
+    border-radius: 10px;
+}
+#how-works .box-4 .box4 h2,p{
+    color: white;
+    margin-left: 0px;
+    padding-right: 60px;
+    margin-bottom: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#how-works .box-4 .box4 p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-left: 0px;
+    padding-right: 60px;
+    margin-bottom: 0px;
+}
+#how-works .box4::before{
+    content: " ";
+    position: absolute;
+    width: 2px;
+    height: 65px;
+    background-color: rgb(151, 145, 140);
+    margin-top: -117px;
+    margin-left: 4px;
+}
+#footer{
+    margin-top: 80px;
+   
+}
+#footer .row{
+    margin-top: 80px;
+}
+#footer p{
+    margin-top: 40px;
+    color:black; 
+    font-family: 'Poppins', sans-serif;
+}
+#footer .contact p{
+    margin-top: 10px;
+}
+#footer address{
+    font-family: 'Poppins', sans-serif;
+}
+#footer ul li a{
+    font-family: 'Poppins', sans-serif;
+   color: rgba(0, 0, 0, 0.623);
+}
+#footer ul li a:hover{
+      color: black;
+}
+#footer .contact i{
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.623);
+    font-size: 25px;
+    margin-left: 20px;
+}
+#footer .contact i:hover{
+    color: black;
+}
+
+#footer footer{
+    border-left: 2px solid rgba(0, 0, 0, 0.623);
+    color: rgba(0, 0, 0, 0.623);
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
+}
+#footer footer:hover{
+    color: black;
+    border-left:2px solid black;
 }
