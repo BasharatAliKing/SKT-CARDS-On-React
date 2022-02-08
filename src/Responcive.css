@@ -167,6 +167,7 @@
         font-size: 40px;
         line-height: 50px;
     }
+   
     #wedding-cards h1{
         font-size: 30px;
         line-height: 40px;
@@ -176,10 +177,31 @@
     }
     #how-works h1{
         padding-left: 0px;
+        padding-top: 20px;
     }
+   
     #sample-cards .col-md-4 p {
        padding-right: 0px;
     }
+    #how-works .box1{
+        width: 90%;
+        margin: 50px auto;
+    }
+    #how-works .box2{
+        width: 90%;
+        padding-right: 0px;
+        margin: 50px auto;
+    }
+    #how-works .box3{
+        width: 90%;
+        margin: 50px auto;
+    }
+    #how-works .box4{
+        width: 90%;
+        margin: 50px auto;
+        padding-right: 0px;
+    }
+
     #how-works .circle1 {
      width: 50%;
      margin: 50px auto;
@@ -218,5 +240,8 @@
     }
     #how-works img{
         width: 50%;
+    }
+    #footer p{
+        padding-right: 0px;
     }
 }
