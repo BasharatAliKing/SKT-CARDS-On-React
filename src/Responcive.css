@@ -105,7 +105,7 @@
     }
     #home h4{ 
         font-size: 20px;
-        margin-top: -200px;
+        margin-top: -170px;
     }
     #home h1{
         font-size: 40px;
@@ -115,11 +115,15 @@
         font-size: 18px;
         padding: 10px 30px;
         margin-bottom: 0px;
-        margin-top:20px;
+        margin-top:15px;
     }
     #unique-cards h1{
         font-size: 40px;
         text-align: center;
+    }
+    #unique-cards .card{
+        width: 80%;
+        margin: 40px auto;
     }
     #professional-cards h1 {
         font-size: 40px;
@@ -137,9 +141,8 @@
         padding-left: 0px;
     }
     #professional-cards .a {
-        width: 90%;
-        margin-left: 20px;
-        margin-top: 30px;
+        width: 50%;
+      margin: 50px auto;
         text-align: center;
     }
     #benefits h1 {
@@ -209,7 +212,7 @@
      padding-bottom: 20px;
     }
     #how-works .circle1::before {
-        margin-top: 39px;
+        margin-top: 30px;
     }
     #how-works .circle2 {
      width: 50%;
@@ -218,7 +221,7 @@
      padding-bottom: 20px;
     }
     #how-works .circle2::before {
-        margin-top: 39px;
+        margin-top: 30px;
     }
     #how-works .circle3 {
      width: 50%;
@@ -227,7 +230,7 @@
      padding-bottom: 20px;
     }
     #how-works .circle3::before {
-        margin-top: 39px;
+        margin-top: 30px;
     }
     #how-works .circle4 {
      width: 50%;
@@ -236,7 +239,7 @@
      padding-bottom: 20px;
     }
     #how-works .circle4::before {
-        margin-top: 39px;
+        margin-top: 30px;
     }
     #how-works img{
         width: 50%;
