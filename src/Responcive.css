@@ -4,14 +4,15 @@
         position: absolute;
         top: 0px;
         width: 100%;
-        height: 10%;
+        height: 12%;
         z-index: 30;
         /* display: none; */
     }
-   
     #header ul{
-        left: 10px;
+        background-color: black;
+       left: 10px;
     }
+
     #header nav{
         margin-top: 0px;
     }
