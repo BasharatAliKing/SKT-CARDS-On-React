@@ -98,7 +98,7 @@
 }
 @media(max-width:576px){
     h1{
-        font-size: 30px;
+        font-size: 40px;
     }
     button{
         font-size: 20px;
@@ -108,7 +108,7 @@
         margin-top: -200px;
     }
     #home h1{
-        font-size: 30px;
+        font-size: 40px;
         line-height: 30px;
     }
     #home button{
@@ -118,16 +118,18 @@
         margin-top:20px;
     }
     #unique-cards h1{
-        font-size: 30px;
+        font-size: 40px;
         text-align: center;
     }
     #professional-cards h1 {
-        font-size: 30px;
+        font-size: 40px;
        text-align: center;
         line-height: 30px;
     }
     #professional-cards p {
        text-align: center;
+       margin-top: 20px;
+       padding-right: 0px;
     }
     #professional-cards h3 {
         text-align: center;
@@ -141,18 +143,18 @@
         text-align: center;
     }
     #benefits h1 {
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 40px;
+        line-height: 50px;
     }
     #offer h1{
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 40px;
+        line-height: 50px;
     }
     #offer button{
         font-size: 20px;
     }
     #business-cards h1{
-        font-size: 30px;
+        font-size: 40px;
         line-height: 40px;
     }
     #business-cards h2{
@@ -162,8 +164,8 @@
         font-size: 20px;
     }
     #meet h1{
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 40px;
+        line-height: 50px;
     }
     #wedding-cards h1{
         font-size: 30px;
@@ -171,5 +173,50 @@
     }
     #how-works{
         text-align: center;
+    }
+    #how-works h1{
+        padding-left: 0px;
+    }
+    #sample-cards .col-md-4 p {
+       padding-right: 0px;
+    }
+    #how-works .circle1 {
+     width: 50%;
+     margin: 50px auto;
+     padding-top: 10px;
+     padding-bottom: 20px;
+    }
+    #how-works .circle1::before {
+        margin-top: 39px;
+    }
+    #how-works .circle2 {
+     width: 50%;
+     margin: 50px auto;
+     padding-top: 10px;
+     padding-bottom: 20px;
+    }
+    #how-works .circle2::before {
+        margin-top: 39px;
+    }
+    #how-works .circle3 {
+     width: 50%;
+     margin: 50px auto;
+     padding-top: 10px;
+     padding-bottom: 20px;
+    }
+    #how-works .circle3::before {
+        margin-top: 39px;
+    }
+    #how-works .circle4 {
+     width: 50%;
+     margin: 50px auto;
+     padding-top: 10px;
+     padding-bottom: 20px;
+    }
+    #how-works .circle4::before {
+        margin-top: 39px;
+    }
+    #how-works img{
+        width: 50%;
     }
 }
