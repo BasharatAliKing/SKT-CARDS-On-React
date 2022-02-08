@@ -128,7 +128,7 @@
     #professional-cards h1 {
         font-size: 40px;
        text-align: center;
-        line-height: 30px;
+        line-height: 45px;
     }
     #professional-cards p {
        text-align: center;
@@ -141,7 +141,7 @@
         padding-left: 0px;
     }
     #professional-cards .a {
-        width: 50%;
+        width: 60%;
       margin: 50px auto;
         text-align: center;
     }
@@ -189,19 +189,24 @@
     #how-works .box1{
         width: 90%;
         margin: 50px auto;
+        padding: 35px;
     }
-    #how-works .box2{
+    #how-works  .box2{
         width: 90%;
+        padding: 35px;
         padding-right: 0px;
         margin: 50px auto;
+       
     }
     #how-works .box3{
         width: 90%;
         margin: 50px auto;
+        padding: 35px;
     }
     #how-works .box4{
         width: 90%;
         margin: 50px auto;
+       padding: 35px; 
         padding-right: 0px;
     }
 
